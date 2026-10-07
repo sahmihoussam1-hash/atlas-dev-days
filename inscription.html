@@ -1,0 +1,38 @@
+<main>
+  <h1>S'inscrire aux Atlas Dev Days</h1>
+  
+  <form action="#" method="POST" class="registration-form">
+    
+    <div class="form-group">
+      <label for="fullname">Nom complet :</label>
+      <input type="text" id="fullname" name="fullname" required placeholder="Ex : Houssam Amrani">
+    </div>
+
+    <div class="form-group">
+      <label for="email">Adresse Email :</label>
+      <input type="email" id="email" name="email" required placeholder="nom@exemple.com">
+    </div>
+
+    <div class="form-group">
+      <label for="phone">Numéro de Téléphone :</label>
+      <input type="tel" id="phone" name="phone" required placeholder="0600000000">
+    </div>
+
+    <div class="form-group">
+      <label for="day-select">Choix du jour :</label>
+      <select id="day-select" name="day" required>
+        <option value="">-- Sélectionnez une option --</option>
+        <option value="jour1">Jour 1 (15 Nov)</option>
+        <option value="jour2">Jour 2 (16 Nov)</option>
+        <option value="pass2jours">Pass 2 Jours</option>
+      </select>
+    </div>
+
+    <div class="form-group checkbox-group">
+      <input type="checkbox" id="terms" name="terms" required>
+      <label for="terms">J'accepte les conditions générales d'utilisation</label>
+    </div>
+
+    <button type="submit" class="btn-submit">Valider mon inscription</button>
+  </form>
+</main>
