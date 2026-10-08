@@ -1,0 +1,287 @@
+.accueil section {
+  background-color: white;
+  padding: 30px;
+}
+ .accueil body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background-color: #f4f6f8;
+  color: #222;
+}
+
+
+.accueil header {
+  background-color: #172554;
+  color: white;
+  padding: 20px;
+}
+
+
+.accueil header h2 {
+  margin: 0 0 15px 0;
+}
+
+/* Menu */
+.accueil nav ol {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.accueil nav li {
+  display: inline;
+  margin-right: 20px;
+}
+
+.accueil nav a {
+  color: white;
+  text-decoration: none;
+}
+
+/* cliquer un lien */
+.accueil nav a:hover {
+  text-decoration: underline;
+}
+
+/* Contenu principal */
+.accueil main {
+  width: 80%;
+  margin: 40px auto;
+}
+
+/* Les sections */
+.accueil section {
+  background-color: white;
+  padding: 30px;
+  margin-bottom: 25px;
+  border-radius: 10px;
+}
+
+/* Titre principal */
+.accueil h1 {
+  color: #172554;
+}
+
+/* Bouton */
+.accueil section a {
+  display: inline-block;
+  background-color: #2563eb;
+  color: white;
+  padding: 12px 20px;
+  text-decoration: none;
+  border-radius: 6px;
+  margin-top: 10px;
+}
+
+/*  quand on passe sur le bouton */
+.accueil section a:hover {
+  background-color: #1d4ed8;
+}
+
+.accueil footer {
+  background-color: #172554;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+/* BODY */
+
+.programme {
+  background-color: #f4f6f8;
+}
+
+
+/* HEADER */
+
+.programme header {
+  background-color: #172554;
+  color: white;
+  padding: 20px;
+}
+
+.programme header h2 {
+  margin: 0 0 15px 0;
+}
+
+
+/* MENU */
+
+.programme nav ol {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.programme nav li {
+  display: inline;
+  margin-right: 20px;
+}
+
+.programme nav a {
+  color: white;
+  text-decoration: none;
+}
+
+
+/* CONTENU */
+
+.programme main {
+  width: 80%;
+  margin: 40px auto;
+}
+
+.programme h1 {
+  text-align: center;
+  color: #172554;
+  margin-bottom: 30px;
+}
+
+.programme section {
+  background-color: white;
+  padding: 30px;
+  border-radius: 10px;
+}
+
+
+/* TABLEAU */
+
+.programme table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.programme th,
+.programme td {
+  border: 1px solid #ddd;
+  padding: 15px;
+  text-align: left;
+}
+
+.programme th {
+  background-color: #172554;
+  color: white;
+}
+
+.programme tr:hover {
+  background-color: #f1f5f9;
+}
+
+
+/* FOOTER */
+
+.programme footer {
+  background-color: #172554;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+/*--------INTERVENANTS-----------*/
+
+.intervenants {
+  background-color: #f4f6f8;
+}
+
+.intervenants header {
+  background-color: #172554;
+  color: white;
+  padding: 20px;
+}
+
+.intervenants nav ol {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.intervenants nav li {
+  display: inline;
+  margin-right: 20px;
+}
+
+.intervenants nav a {
+  color: white;
+  text-decoration: none;
+}
+
+.intervenants main {
+  width: 90%;
+  margin: 40px auto;
+}
+
+.intervenants h1 {
+  text-align: center;
+  color: #172554;
+}
+
+.intervenants section {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.intervenants article {
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  width: 250px;
+}
+
+.intervenants article img {
+  width: 80%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.intervenants article:hover {
+  transform: translateY(-5px);
+}
+
+
+/*--------------inscription------------*/
+
+.inscription section {
+  background-color: white;
+  padding: 30px;
+}
+ .inscription body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background-color: #f4f6f8;
+  color: #222;
+}
+
+
+.inscription header {
+  background-color: #172554;
+  color: white;
+  padding: 20px;
+}
+
+
+.inscription header h2 {
+  margin: 0 0 15px 0;
+}
+
+/* Menu */
+.inscription nav ol {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.inscription nav li {
+  display: inline;
+  margin-right: 20px;
+}
+
+.inscription nav a {
+  color: white;
+  text-decoration: none;
+}
+
+/* cliquer un lien */
+.inscription nav a:hover {
+  text-decoration: underline;
+}
