@@ -1,5 +1,5 @@
 header {
-  background-color: #172554;
+  background-color: #4369e3;
   color: white;
   padding: 20px;
 
@@ -29,7 +29,7 @@ header nav a:hover {
   text-decoration: underline;
 }
 footer {
-  background-color: #172554;
+  background-color: #4369e3;
   color: white;
   text-align: center;
   padding: 20px;
@@ -87,13 +87,13 @@ footer {
 
 /* Titre principal */
 .accueil h1 {
-  color: #172554;
+  color: #3553b9;
 }
 
 /* Bouton */
 .accueil section a {
   display: inline-block;
-  background-color: #2563eb;
+  background-color: #172554;
   color: white;
   padding: 12px 20px;
   text-decoration: none;
