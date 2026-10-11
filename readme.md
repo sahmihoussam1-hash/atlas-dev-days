@@ -30,3 +30,4 @@ Le projet est développé en HTML5 sémantique et CSS3 pur.
 
 - **HTML5** (Structure sémantique)
 - **CSS3** (Flexbox, styles responsive)
+
