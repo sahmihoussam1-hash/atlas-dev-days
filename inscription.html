@@ -22,7 +22,7 @@
 <main>
   <h1>S'inscrire</h1>
 
-  <form action="#" method="POST">
+  <form action="#" method="get">
 
     <label for="fullname">Nom complet :</label>
     <input type="text" id="fullname" name="fullname"
@@ -36,35 +36,15 @@
     <input type="tel" id="phone" name="phone"
            required placeholder="0600000000">
 
-    <label for="metier">Profil :</label>    
-    <select type="select" id="metier"  name="profil" required> 
+    <label for="profession">Profil :</label>    
+    <select type="select" id="profession"  name="profil" required> 
       <option value="">-- Sélectionnez une option --</option>
       <option value="Étudiant·e">Étudiant·e</option>
       <option value="Développeur·se">Développeur·se</option>
       <option value="Autre">Autre</option>
     </select>  
 
-    <fieldset>
-  <legend>Ateliers souhaités (plusieurs choix possibles) :</legend>
-
-  <div>
-    <input type="checkbox" id="atelier-front" name="ateliers" value="front">
-    <label for="atelier-front">Atelier Front-end (CSS Flexbox & Accessibilité)</label>
-  </div>
-
-  <div>
-    <input type="checkbox" id="atelier-back" name="ateliers" value="back">
-    <label for="atelier-back">Atelier Back-end (APIs & Sécurité)</label>
-  </div>
-
-  <div>
-    <input type="checkbox" id="atelier-git" name="ateliers" value="git">
-    <label for="atelier-git">Atelier Git & GitHub en équipe</label>
-  </div>
-</fieldset>
-
-
-    <label for="day-select">Jour :</label>
+     <label for="day-select">Jour :</label>
     <select id="day-select" name="day" required>
       <option value="">-- Sélectionnez une option --</option>
       <option value="jour1">Jour 1 (09 Oct)</option>
@@ -83,8 +63,8 @@
 
   </form>
 </main>
+</body>
   <footer>
     <p>&copy; 2026 Association Atlas Dev. Tous droits réservés.</p>
   </footer>
-</body>
 </html>

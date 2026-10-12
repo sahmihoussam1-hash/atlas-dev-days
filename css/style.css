@@ -1,243 +1,267 @@
-header {
-  background-color: #4369e3;
-  color: white;
-  padding: 20px;
+/* ============================= */
+/*          HEADER               */
+/* ============================= */
 
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+/* Style général de l'en-tête */
+header {
+  background-color: #4369e3; /* Couleur de fond bleue */
+  color: white; /* Couleur du texte en blanc */
+  padding: 20px; /* Espace intérieur de l'en-tête */
+
+  display: flex; /* Aligne les éléments sur une ligne */
+  justify-content: space-between; /* Éloigne le titre du menu */
+  align-items: center; /* Centre les éléments verticalement */
 }
 
+/* Supprime la marge autour du titre h2 */
 header h2 {
   margin: 0;
 }
 
+/* Organise les liens du menu horizontalement */
 header nav ol {
-  display: flex;
-  list-style: none;
-  padding: 0;
-  margin: 0;
-  gap: 25px;
+  display: flex; /* Affiche les liens sur une ligne */
+  list-style: none; /* Supprime les numéros de la liste */
+  padding: 0; /* Supprime l'espace intérieur */
+  margin: 0; /* Supprime la marge extérieure */
+  gap: 25px; /* Espace entre les liens */
 }
 
+/* Style des liens du menu */
 header nav a {
-  color: white;
-  text-decoration: none;
+  color: white; /* Liens en blanc */
+  text-decoration: none; /* Supprime le soulignement */
 }
 
+/* Souligne les liens lorsque la souris passe dessus */
 header nav a:hover {
   text-decoration: underline;
 }
-footer {
-  background-color: #4369e3;
-  color: white;
-  text-align: center;
-  padding: 20px;
+
+
+/* ============================= */
+/*       PAGE D'ACCUEIL          */
+/* ============================= */
+
+/* Style du corps de la page d'accueil */
+.accueil body {
+  font-family: Arial, sans-serif; /* Police du texte */
+  margin: 0; /* Supprime les marges par défaut */
+  background-color: #f4f6f8; /* Fond gris clair */
+  color: #222; /* Couleur du texte gris foncé */
 }
 
-
-
+/* Style des sections de la page d'accueil */
 .accueil section {
-  background-color: white;
-  padding: 30px;
-}
- .accueil body {
-  font-family: Arial, sans-serif;
-  margin: 0;
-  background-color: #f4f6f8;
-  color: #222;
+  background-color: white; /* Fond blanc */
+  padding: 30px; /* Espace intérieur */
 }
 
-
-/* Menu */
+/* Supprime les puces ou numéros du menu */
 .accueil nav ol {
   list-style: none;
   padding: 0;
   margin: 0;
 }
 
+/* Affiche les éléments du menu sur une ligne */
 .accueil nav li {
   display: inline;
-  margin-right: 20px;
+  margin-right: 20px; /* Espace entre les liens */
 }
 
+/* Définit la couleur et l'apparence des liens */
 .accueil nav a {
   color: white;
   text-decoration: none;
 }
 
-/* cliquer un lien */
+/* Souligne les liens au survol de la souris */
 .accueil nav a:hover {
   text-decoration: underline;
 }
 
-/* Contenu principal */
+/* Centre le contenu principal et définit sa largeur */
 .accueil main {
-  width: 80%;
-  margin: 40px auto;
+  width: 80%; /* Le contenu occupe 80 % de la largeur */
+  margin: 40px auto; /* Marge verticale et centrage horizontal */
 }
 
-/* Les sections */
+/* Présentation des différentes sections */
 .accueil section {
-  background-color: white;
-  padding: 30px;
-  margin-bottom: 25px;
-  border-radius: 10px;
+  background-color: white; /* Fond blanc */
+  padding: 30px; /* Espace intérieur */
+  margin-bottom: 25px; /* Espace entre les sections */
+  border-radius: 10px; /* Coins arrondis */
 }
 
-/* Titre principal */
+/* Style du titre principal */
 .accueil h1 {
-  color: #3553b9;
+  color: #3553b9; /* Couleur bleue du titre */
 }
 
-/* Bouton */
+/* Apparence des liens utilisés comme boutons */
 .accueil section a {
-  display: inline-block;
-  background-color: #172554;
-  color: white;
-  padding: 12px 20px;
-  text-decoration: none;
-  border-radius: 6px;
-  margin-top: 10px;
+  display: inline-block; /* Permet d'appliquer les dimensions et marges */
+  background-color: #172554; /* Fond bleu foncé */
+  color: white; /* Texte blanc */
+  padding: 12px 20px; /* Espace autour du texte */
+  text-decoration: none; /* Supprime le soulignement */
+  border-radius: 6px; /* Coins arrondis */
+  margin-top: 10px; /* Espace au-dessus du bouton */
 }
 
-/*  quand on passe sur le bouton */
+/* Change la couleur du bouton au survol */
 .accueil section a:hover {
   background-color: #1d4ed8;
 }
 
 
-/* BODY */
+/* ============================= */
+/*       PAGE PROGRAMME          */
+/* ============================= */
 
+/* Couleur de fond de la page */
 .programme {
   background-color: #f4f6f8;
 }
 
-
-/* HEADER */
-
-
-/* MENU */
-
+/* Supprime les numéros de la liste du menu */
 .programme nav ol {
   list-style: none;
   padding: 0;
   margin: 0;
 }
 
+/* Affiche les liens du menu horizontalement */
 .programme nav li {
   display: inline;
   margin-right: 20px;
 }
 
+/* Style des liens de navigation */
 .programme nav a {
   color: white;
   text-decoration: none;
 }
 
-
-/* CONTENU */
-
+/* Définit la largeur et centre le contenu principal */
 .programme main {
   width: 80%;
   margin: 40px auto;
 }
 
+/* Style du titre principal de la page */
 .programme h1 {
-  text-align: center;
-  color: #172554;
-  margin-bottom: 30px;
+  text-align: center; /* Centre le titre */
+  color: #172554; /* Bleu foncé */
+  margin-bottom: 30px; /* Espace sous le titre */
 }
 
+/* Style de la section qui contient le programme */
 .programme section {
   background-color: white;
   padding: 30px;
-  border-radius: 10px;
+  border-radius: 10px; /* Coins arrondis */
 }
 
 
-/* TABLEAU */
+/* ============================= */
+/*      STYLE DU TABLEAU         */
+/* ============================= */
 
+/* Le tableau occupe toute la largeur disponible */
 .programme table {
   width: 100%;
-  border-collapse: collapse;
+  border-collapse: collapse; /* Fusionne les bordures des cellules */
 }
 
+/* Style des cellules et des en-têtes du tableau */
 .programme th,
 .programme td {
-  border: 1px solid #ddd;
-  padding: 15px;
-  text-align: left;
+  border: 1px solid #ddd; /* Bordure gris clair */
+  padding: 15px; /* Espace intérieur des cellules */
+  text-align: left; /* Aligne le texte à gauche */
 }
 
+/* Style de la ligne des titres du tableau */
 .programme th {
-  background-color: #172554;
-  color: white;
+  background-color: #172554; /* Fond bleu foncé */
+  color: white; /* Texte blanc */
 }
 
+/* Change le fond d'une ligne lorsque la souris passe dessus */
 .programme tr:hover {
   background-color: #f1f5f9;
 }
 
 
-/* FOOTER */
+/* ============================= */
+/*       PAGE INTERVENANTS       */
+/* ============================= */
 
-
-/*--------INTERVENANTS-----------*/
-
+/* Couleur de fond de la page */
 .intervenants {
   background-color: #f4f6f8;
 }
 
+/* Organisation horizontale du menu */
 .intervenants nav ol {
   display: flex;
-  list-style: none;
+  list-style: none; /* Supprime les numéros */
   padding: 0;
   margin: 0;
-  gap: 25px;
+  gap: 25px; /* Espace entre les liens */
 }
 
+/* Style des liens du menu */
 .intervenants nav a {
   color: white;
   text-decoration: none;
 }
 
+/* Centre le contenu et définit sa largeur */
 .intervenants main {
   width: 90%;
   margin: 40px auto;
 }
 
+/* Style du titre principal */
 .intervenants h1 {
   text-align: center;
   color: #172554;
 }
 
+/* Ajoute un espace sous chaque section */
 .intervenants section {
   margin-bottom: 40px;
 }
 
+/* Style des titres des sections */
 .intervenants section h2 {
   text-align: center;
   color: #172554;
   margin-bottom: 25px;
 }
 
+/* Organise les cartes des intervenants */
 .intervenants .cartes {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 30px;
+  display: flex; /* Place les cartes côte à côte */
+  flex-wrap: wrap; /* Passe à la ligne si nécessaire */
+  justify-content: center; /* Centre les cartes */
+  gap: 30px; /* Espace entre les cartes */
 }
 
+/* Style des cartes à l'intérieur du conteneur .cartes */
 .intervenants .cartes article {
-  box-sizing: border-box;
-  width: 40%;
+  box-sizing: border-box; /* Inclut le padding dans la largeur */
+  width: 40%; /* Chaque carte occupe 40 % de la largeur */
   background-color: white;
   padding: 20px;
-  border-radius: 10px;
+  border-radius: 10px; /* Coins arrondis */
 }
 
-
+/* Style général des articles */
 .intervenants article {
   background-color: white;
   padding: 20px;
@@ -245,90 +269,120 @@ footer {
   width: 40%;
 }
 
+/* Définit l'apparence des images des intervenants */
 .intervenants article img {
-  width: 100%;
-  height: 200px;
-  object-fit: cover;
-  border-radius: 8px;
+  width: 100%; /* Image sur toute la largeur de la carte */
+  height: 200px; /* Hauteur fixe */
+  object-fit: cover; /* Recadre l'image sans la déformer */
+  border-radius: 8px; /* Coins arrondis */
 }
 
+/* Déplace légèrement la carte vers le haut au survol */
 .intervenants article:hover {
   transform: translateY(-5px);
 }
 
 
-/*--------------inscription------------*/
+/* ============================= */
+/*       PAGE INSCRIPTION        */
+/* ============================= */
 
+/* Style de la section */
 .inscription section {
   background-color: white;
   padding: 30px;
 }
- .inscription body {
+
+/* Style du corps de la page d'inscription */
+.inscription body {
   font-family: Arial, sans-serif;
   margin: 0;
   background-color: #f4f6f8;
   color: #222;
 }
-/* Menu */
+
+/* Couleur de fond de la page */
 .inscription {
   background-color: #f4f6f8;
 }
 
+/* Centre le formulaire et définit sa largeur */
 .inscription main {
   width: 50%;
   margin: 40px auto;
 }
 
+/* Style du titre de la page */
 .inscription h1 {
   text-align: center;
   color: #172554;
   margin-bottom: 30px;
 }
 
+/* Apparence générale du formulaire */
 .inscription form {
   background-color: white;
-  padding: 30px;
-  border-radius: 10px;
-  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  padding: 30px; /* Espace intérieur du formulaire */
+  border-radius: 10px; /* Coins arrondis */
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); /* Ombre légère */
 }
 
+/* Style des étiquettes des champs */
 .inscription label {
-  display: block;
+  display: block; /* Place chaque étiquette sur sa ligne */
   margin-bottom: 8px;
-  font-weight: bold;
+  font-weight: bold; /* Texte en gras */
 }
 
+/* Style des champs de saisie et des listes déroulantes */
 .inscription input,
 .inscription select {
-  width: 100%;
+  width: 100%; /* Occupe toute la largeur disponible */
   padding: 12px;
-  margin-bottom: 20px;
-  border: 1px solid #ccc;
+  margin-bottom: 20px; /* Espace entre les champs */
+  border: 1px solid #ccc; /* Bordure grise */
   border-radius: 5px;
-  box-sizing: border-box;
+  box-sizing: border-box; /* Inclut le padding dans la largeur */
 }
 
+/* Ajuste la largeur des cases à cocher */
 .inscription input[type="checkbox"] {
   width: auto;
   margin-right: 8px;
 }
 
+/* Place le texte associé à la case à cocher sur la même ligne */
 .inscription input[type="checkbox"] + label {
   display: inline;
   font-weight: normal;
 }
 
+/* Style du bouton de validation du formulaire */
 .inscription button {
   width: 100%;
   padding: 14px;
   background-color: #172554;
   color: white;
-  border: none;
+  border: none; /* Supprime la bordure */
   border-radius: 5px;
   font-size: 16px;
-  cursor: pointer;
+  cursor: pointer; /* Affiche une main au survol */
 }
 
+/* Change la couleur du bouton au survol */
 .inscription button:hover {
   background-color: #1e40af;
+}
+
+
+/* ============================= */
+/*            FOOTER             */
+/* ============================= */
+
+/* Style général du pied de page */
+footer {
+  background-color: #4369e3; /* Fond bleu */
+  color: white; /* Texte blanc */
+  text-align: center; /* Centre le texte */
+  padding: 20px; /* Espace intérieur */
 }
